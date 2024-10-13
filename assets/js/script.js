@@ -15,7 +15,7 @@ const choices = ["rock", "paper", "scissors"];
  * Add event listener to all the functions
  */
 for (let button of buttons) {
-    button.addEventListener("click", function( {
+    button.addEventListener("click", function () {
         let playerChoice = this.getAttribute("data-choice");
         playGame(playerChoice);
     });
